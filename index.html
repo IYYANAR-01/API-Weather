@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="top">
+        <img src="images.png" id="img"><br>
+        <h1>Today's Weather</h1>
+        <input type="text" placeholder="Search City" value="" id="city">
+        <div onclick="calcWeather()" id="but">GET</div>
+    </div>
+    <div id="main">
+        <div id="nameDiv">
+            <h1>Location : </h1>
+            <h1>Cloud PCT : </h1>
+            <h1>Temperature : </h1>
+            <h1>Feels Like : </h1>
+            <h1>Humidity : </h1>
+            <h1>Wind Speed : </h1>
+        </div>
+        <div id="valueDiv">
+            <p id="value1" class="value"></p>
+            <p id="value2" class="value"></p>
+            <p id="value3" class="value"></p>
+            <p id="value4" class="value"></p>
+            <p id="value5" class="value"></p>
+            <p id="value6" class="value"></p>
+
+        </div>
+    </div>
+</body>
+</html>

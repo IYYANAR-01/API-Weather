@@ -1,0 +1,71 @@
+body{
+    height: 1050px;
+    background: linear-gradient(to bottom, #666699 0%, #ffffff 125%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font: 1em sans-serif;
+}
+#top{
+    height: 200px;
+    width: 700px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 20px 65px rgba(0, 11, 16, 0.5);
+}
+#main{
+    height: 800px;
+    width: 700px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 20px 65px rgba(0, 11, 16, 0.8);
+}
+#city{
+    height: 50px;
+    width: 300px;
+    float: left;
+    border-radius: 5px;
+    font-size: 25px;
+}
+#img{
+    height: 75%;
+    width: 20%;
+    float: left;
+    margin: 30px;
+}
+#but{
+    float: left;
+    height: 50px;
+    width: 80px;
+    background-color:#2E98E3;
+    margin: 2px 40px;
+    color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nameDiv{
+    height: 100%;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+    float: left;
+}
+#valueDiv{
+    height: 100%;
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+    float: left;
+}
+.value{
+    font-size: 25px;
+}
